@@ -24,9 +24,9 @@ $interval = $presentTime->diff($destinationTime);
 
 <body>
 
-    <div class="destination-time"> <?= 'Destination time is ' . $destinationTime->format('M d Y h:i:s') . '<br>'; ?></div>
-    <div class="present-time"> <?= 'Present time is ' . $presentTime->format('M d Y h:i:s') . '<br>'; ?></div>
-    <div class="time-bridge"> <?= 'The time of the time bridge' . $interval->format(" %Y years %M months %D days %H hours %I minutes %S seconds") . '<br>'; ?></div>
+    <div class="destination-time"> <?= 'Destination time is ' . $destinationTime->format('M d Y h:i:s'); ?></div>
+    <div class="present-time"> <?= 'Present time is ' . $presentTime->format('M d Y h:i:s'); ?></div>
+    <div class="time-bridge"> <?= 'The time of the time bridge' . $interval->format(" %Y years %M months %D days %H hours %I minutes %S seconds"); ?></div>
 
 </body>
 
